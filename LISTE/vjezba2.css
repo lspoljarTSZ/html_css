@@ -1,0 +1,10 @@
+ul{
+    background-color: aqua;
+}
+ul li{
+    background-color: azure;
+}
+ol{
+    list-style-position: outside;
+    list-style-image: url("https://cdn-icons-png.flaticon.com/512/46/46027.png");
+}

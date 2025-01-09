@@ -1,0 +1,11 @@
+table, th, td {
+    vertical-align: bottom;
+    text-align: right;
+    border: 1px solid cadetblue;
+}
+table {
+    border-collapse: collapse;
+}
+td:hover{
+    background-color: black;
+}
