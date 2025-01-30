@@ -1,0 +1,8 @@
+.odlomak-padding{
+    padding: 1cm;
+    background-color: lightskyblue;
+}
+.odlomak-padding-ljevo-desno{
+    padding: 1.5cm 3cm;
+    background-color: palegoldenrod;
+}
