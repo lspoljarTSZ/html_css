@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dojmovi – S.O.S. za ljubav</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Početna</a></li>
+    <li><a href="galerija.html">Galerija</a></li>
+    <li><a href="gosti.html">Gosti</a></li>
+    <li><a href="citati.html">Citati</a></li>
+    <li><a href="dojmovi.html">Podijelite dojmove</a></li>
+  </ul>
+</nav>
+
+<main>
+  <h2>Podijelite svoje dojmove</h2>
+  <p>Bili ste na koncertu? Ili ste ga pratili online? Podijelite s nama svoje misli, osjećaje i najdraže trenutke!</p>
+
+  <form action="#" method="post" class="dojmovi-forma">
+
+    <!-- Pitanje 1 -->
+    <fieldset>
+      <legend>Jeste li bili na koncertu?</legend>
+      <label><input type="radio" name="bio" value="da"> Da</label>
+      <label><input type="radio" name="bio" value="ne"> Ne</label>
+    </fieldset>
+
+    <!-- Pitanje 2 -->
+    <fieldset>
+      <legend>Ocijenite koncert (1 – najslabije, 5 – odlično):</legend>
+      <label><input type="radio" name="ocjena" value="1"> 1</label>
+      <label><input type="radio" name="ocjena" value="2"> 2</label>
+      <label><input type="radio" name="ocjena" value="3"> 3</label>
+      <label><input type="radio" name="ocjena" value="4"> 4</label>
+      <label><input type="radio" name="ocjena" value="5"> 5</label>
+    </fieldset>
+
+    <!-- Pitanje 3 -->
+    <fieldset>
+      <legend>Koji vam se blok najviše svidio?</legend>
+      <label><input type="checkbox" name="blokovi" value="blok1"> Blok 1</label>
+      <label><input type="checkbox" name="blokovi" value="blok2"> Blok 2</label>
+      <label><input type="checkbox" name="blokovi" value="blok3"> Blok 3</label>
+      <label><input type="checkbox" name="blokovi" value="blok4"> Blok 4</label>
+    </fieldset>
+
+    <!-- Pitanje 4 -->
+    <label for="ime">Vaše ime:</label>
+    <input type="text" id="ime" name="ime">
+
+    <!-- Pitanje 5 -->
+    <label for="dojam">Posebni dojmovi:</label>
+    <textarea id="dojam" name="dojam" rows="6" placeholder="Napišite svoj dojam o koncertu..."></textarea>
+
+    <button type="submit">Pošalji</button>
+  </form>
+</main>
+
+<footer>
+  <p>&copy; 2025 Nataša Bekvalac | Created by Lovro</p>
+</footer>
+
+</body>
+</html>
