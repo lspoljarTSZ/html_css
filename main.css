@@ -1,4 +1,309 @@
-.navigacija{
-display: flex;
-background-color: cadetblue;
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #333;
+    font-size: 1rem;
 }
+.hero {
+    background-image: url("img/pocetno/naslovna.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 38.5vh 5vw;
+}
+.hero-content h1 {
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 0.125em 0.125em 0.25em rgba(0,0,0,0.5);
+}
+.hero-content p {
+    font-size: 1.25rem;
+    margin-top: 0.625rem;
+    text-shadow: 0.0625em 0.0625em 0.1875em rgba(0,0,0,0.5);
+}
+nav {
+    background-color: white;
+    padding: 1.25rem 0;
+    width: 100%;
+    border-bottom: #2f5365 5px solid;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.nav li {
+    margin: 0 1.25rem;
+}
+.nav li a {
+    color: #2f5365;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5625rem;
+}
+.nav li a:hover {
+    color: black;
+}
+.uvod {
+    padding: 1.875rem 1.25rem;
+    max-width: 87.5rem;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 1.125rem;
+}
+.dva-stupa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.875rem 1.25rem;
+    gap: 2.5rem;
+}
+.stup-lijevi img {
+    max-width: 100%;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.2);
+    width: 21.875rem; /* 350px */
+}
+.stup-desni {
+    max-width: 56.25rem; /* 900px */
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+.logo {
+    height: 3.75rem;
+}
+footer {
+    background-color: #2f5365;
+    color: white;
+    text-align: center;
+    padding: 0.9375rem;
+    margin-top: 3.125rem;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+.facebook {
+    margin: 0 0.9375rem;
+}
+.apartmaniNaslov{
+    color: #2f5365;
+}
+.svi-apartmani {
+    max-width: 87.5rem;
+    margin: 0 auto;
+    padding: 1.875rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.apartman-blok {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+.apartman-blok img {
+    width: 13rem;
+    height: auto;
+    border-radius: 0.625rem;
+}
+.apartman-blok h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    color: #2f5365;
+}
+.apartman-blok p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+.lokacija-uvod {
+    text-align: center;
+    margin-top: 2rem;
+}
+.lokacija-uvod h2 {
+    font-size: 2rem;
+    color: #2f5365;
+}
+.lokacija-karta {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 5rem;
+}
+.kartaFrame{
+    width: 50rem;
+    height: 26rem;
+    border-radius: 0.625rem;
+    margin-bottom: 4rem;
+}
+.adresa{
+    display: flex;
+    flex-direction: column;
+    background-color: #2f5365;
+    align-items: center;
+    color: white;
+    padding-top: 6rem;
+    height: 20rem;
+    width: 15rem;
+    border-radius: 0.625rem;
+    margin-right: 2rem;
+}
+.lokacija-stup {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 22rem;
+    width: 48%;
+}
+.lokacija-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+}
+.lokacija-item img {
+    width: 2rem;
+    height: 2rem;
+}
+.lokacija-sadrzaj {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.lokacija-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+.lokacija-item p {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+hr{
+    background-color: #2f5365;
+    width: 100%;
+    height: 0.05rem;
+}
+.podnaslovUdaljenost{
+    display: flex;
+    justify-content: center;
+    color: #2f5365;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+.plazeNaslov{
+    display: flex;
+    justify-content: center;
+    color: #2f5365;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+.plaze-blokovi {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* umjesto 1.5rem radi kompaktnijeg razmaka */
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+.plaza-blok {
+    margin-top: 2rem;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 8rem;
+    height: 20rem;
+    margin-bottom: 5rem;
+}
+.plaza1 {
+    background-image: url("img/plaze/stjene.jpg");
+    background-repeat: no-repeat;
+}
+.plaza2 {
+    background-image: url("img/plaze/sljunak.jpg");
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.plaza3 {
+    background-image: url("img/plaze/pijesak.jpg");
+}
+.videoNaslov{
+    color: #2f5365;
+}
+.video-sekcija {
+    text-align: center;
+    margin: 0 auto 2rem;
+}
+.video-sekcija h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.video-sekcija iframe {
+    width: 40rem;
+    height: 22.5rem; /* 360px */
+    border-radius: 1.5rem;
+}
+.recenzije-main {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+.recenzije-naslov {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2f5365;
+    margin-bottom: 2rem;
+}
+.recenzije-forma {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgba(47, 83, 101, 0.05);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.recenzije-forma label {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.recenzije-forma select,
+.recenzije-forma textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.ocjena-horizontalno {
+    display: flex;
+    gap: 1rem;
+}
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #2f5365;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    align-self: flex-start;
+}
+button:hover {
+    background-color: #24414f;
+}
+

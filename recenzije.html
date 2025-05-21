@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <title>Recenzije</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<nav>
+  <ul class="nav">
+    <li><a href="index.html">Početna</a></li>
+    <li><a href="Apartmani.html">Apartmani</a></li>
+    <li><a href="lokacija.html">Lokacija</a></li>
+    <li><a href="plaze.html">Plaže</a></li>
+    <li><a href="recenzije.html">Recenzije</a></li>
+  </ul>
+</nav>
+<main class="recenzije-main">
+  <h1 class="recenzije-naslov">Podijelite vaše dojmove</h1>
+  <form class="recenzije-forma">
+    <label for="apartman">Odaberite apartman:</label>
+    <select id="apartman" name="apartman">
+      <option value="apartman1">Apartman 1</option>
+      <option value="apartman2">Apartman 2</option>
+      <option value="apartman3">Apartman 3</option>
+      <option value="apartman4">Apartman 4</option>
+      <option value="apartman5">Apartman 5</option>
+      <option value="apartman6">Apartman 6</option>
+    </select>
+<br>
+    <p>Hoćete li se vratiti?</p>
+    <label><input type="radio" name="posjetio" value="da"> Da</label>
+    <label><input type="radio" name="posjetio" value="ne"> Ne</label><br>
+    <p>Ocjena:</p>
+    <section class="ocjena-horizontalno">
+      <label><input type="radio" name="ocjena" value="1"> 1</label>
+      <label><input type="radio" name="ocjena" value="2"> 2</label>
+      <label><input type="radio" name="ocjena" value="3"> 3</label>
+      <label><input type="radio" name="ocjena" value="4"> 4</label>
+      <label><input type="radio" name="ocjena" value="5"> 5</label>
+    </section>
+    <label for="poruka">Vaša poruka:</label>
+    <textarea id="poruka" name="poruka" rows="5" placeholder="Ovdje napišite svoju recenziju..."></textarea>
+    <button type="submit">Pošalji</button>
+  </form>
+</main>
+ <footer>
+   <section class="footer-logo">
+     <img src="img/pocetno/logo.png" alt="Logo Apartmana Bokun mora" class="logo">
+   </section>
+   <section class="footer-contact">
+     <p>Kontakt: +385 98 166 4405</p>
+   </section>
+   <section class="social-media">
+     <a href="https://www.instagram.com/apartmani_bokun_mora/" target="_blank">
+       <img src="img/footer/instagram.png" alt="Instagram" class="instagram">
+     </a>
+     <a href="https://www.facebook.com/bokun.mora" target="_blank">
+       <img src="img/footer/facebook.png" alt="Facebook" class="facebook">
+     </a>
+     <a href="https://www.apartmanija.hr/apartmani/nin/apartmani-bokun-mora/25505" target="_blank">
+       <img src="img/footer/home.png" alt="Apartmanija" class="apartmanija">
+     </a>
+   </section>
+   <section class="footer-copy">
+     <p>© 2025 Apartmani Bokun mora</p>
+   </section>
+ </footer>
+</body>
+</html>
